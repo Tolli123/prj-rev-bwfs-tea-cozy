@@ -1,0 +1,152 @@
+/* Universal Styles */
+
+body {
+  margin: 0;
+  font-family: "Helvetica";
+  text-align: center;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+/* Header */
+
+.wrapper  {
+  display: flex;
+  flex-flow: row wrap;
+  height: 69px;
+  background-color: black;
+}
+
+header {
+  display: flex;
+  position: fixed;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+  height: 69px;
+  background-color: black;
+}
+
+/* Navigation */
+
+nav span {
+  display: inline-block;
+  text-decoration: underline;
+  padding: 20px 10px;
+  justify-content: center;
+}
+
+/* Set anchor to Seashell color */
+
+nav a {
+  color: seashell;
+}
+
+/* Set Logo 10 and image sizepixels from the left */
+
+.logo {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  flex-grow: 1;
+}
+
+.logo img {
+  height: 50px;
+}
+
+/* Set Mission settings and background image */
+
+.mission {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 1200px;
+  height: 700px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  margin: auto;
+}
+
+.content {
+  display: block;
+  background-color: black;
+  width: 1200px;
+  margin: auto;
+}
+
+/* Set Tea of the Month settings and item images settings */
+
+.listitems {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.item img {
+  width: 300px;
+  height: 200px;
+}
+
+.item {
+    margin: 0px 50px;
+}
+
+.item h4 {
+    margin: 10px;
+}
+
+/* Set Locations settings */
+
+.locationinformation {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 1200px;
+  height: 500px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  margin: auto;
+}
+
+.locationinformation h2 {
+  margin: 61px 0px 15px 0px;
+}
+
+.locations {
+  Display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+}
+
+.location {
+  background-color: black;
+  height: 300px;
+  width:  300px;
+  opacity: 1;
+  margin: 0px 40px;
+}
+
+/* Set Contact Information Settings */
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 100%;
+  height: 200px;
+  margin: auto;
+}
+
+/* Footer */
+
+footer {
+  display: block;
+  text-align: left;
+}
